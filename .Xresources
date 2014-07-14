@@ -1,0 +1,83 @@
+!terminal colors
+
+!black 30
+*color0: #000000
+*color8: #3639d
+
+!red 31
+*color1: #d01f3c
+*color 9: #de3677
+
+!green 32
+*color2: #6bba70
+*color10: #98cf9b
+
+!yellow 33
+*color3: #c79810
+*color11: #d8b758
+
+!blue 34
+*color4: #356aa0
+*color12: #7297bd
+
+!pink 35
+*color5: #d01f98
+*color13: #de63b7
+
+!cyan 36
+*color6: #4096ee
+*color14: #7ab6f3
+
+!white 37
+*color7: #eeeeee
+*color15: #ffffff
+
+!xclock stuff
+xclock*analog: false
+xclock*update: 1
+xclock*foreground: #356aa0
+xclock*background: #111111
+
+!urxvt
+urxvt*background: #111111
+urxvt*foreground: #eeeeee
+*transparent: true
+urxvt*shading: 20
+urxvt*scrollBar: false
+
+! xterm ----------------------------------------------------------------------
+
+xterm*VT100.geometry:     80x25
+xterm*faceName:           Terminus:style=Regular:size=8
+!xterm*font:              -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          512
+xterm*scrollKey:          true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          true
+xterm*rightScrollBar:     true
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
+
+*xterm*background: #101010
+*xterm*foreground: #d0d0d0
+*xterm*cursorColor: #d0d0d0
+*xterm*color0: #101010
+*xterm*color1: #960050
+*xterm*color2: #66aa11
+*xterm*color3: #c47f2c
+*xterm*color4: #30309b
+*xterm*color5: #7e40a5
+*xterm*color6: #3579a8
+*xterm*color7: #9999aa
+*xterm*color8: #303030
+*xterm*color9: #ff0090
+*xterm*color10: #80ff00
+*xterm*color11: #ffba68
+*xterm*color12: #5f5fee
+*xterm*color13: #bb88dd
+*xterm*color14: #4eb4fa
+*xterm*color15: #d0d0d0

@@ -1,0 +1,6 @@
+[submodule ".bash.d"]
+	path = .bash.d
+	url = https://github.com/jshield/bash.d
+[submodule ".config/awesome"]
+	path = .config/awesome
+	url = https://github.com/copycat-killer/awesome-copycats/
