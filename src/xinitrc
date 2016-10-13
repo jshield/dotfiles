@@ -13,6 +13,9 @@ fi
 
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
+HOST_XINITRC=~/.xinitrc.$(uname -n)
+[[ -f $HOST_XINITRC ]] && . $HOST_XINITRC
+
 # exec gnome-session
 # exec startkde
 # exec startxfce4
